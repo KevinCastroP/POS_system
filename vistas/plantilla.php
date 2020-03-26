@@ -55,6 +55,8 @@
       include "modulos/menu.php";
       /*contenido*/
       include "modulos/contenido.php";
+      /*footer*/
+      include "modulos/footer.php";
       
 
     ?>
