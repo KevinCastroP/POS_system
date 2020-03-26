@@ -26,14 +26,14 @@
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <img src="vistas/img/usuarios/default/anonymous.png" class="user-image">
-                        <span class="hidden-xs">Usuario Administrador</span>
+                        <span class="hidden-xs">Administrator User</span>
 
                     </a>
                     <!-- dropdown-toggle -->
                     <ul class="dropdown-menu">
                         <li class="user-body">
                             <div class="pull-right">
-                                <a href="" class="btn btn-default btn-flat">Salir</a>
+                                <a href="" class="btn btn-default btn-flat">Log out</a>
                             </div>
                         </li>
                     </ul>

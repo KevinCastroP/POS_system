@@ -4,37 +4,37 @@
             <li class="active">
                 <a href="">
                     <i class="fa fa-home"></i>
-                    <span>Inicio</span>
+                    <span>Start</span>
                 </a>
             </li>
             <li>
                 <a href="">
                     <i class="fa fa-user"></i>
-                    <span>Usuarios</span>
+                    <span>Users</span>
                 </a>
             </li>
             <li>
                 <a href="">
                     <i class="fa fa-th"></i>
-                    <span>Categorias</span>
+                    <span>Categories</span>
                 </a>
             </li>
             <li>
                 <a href="">
                     <i class="fa fa-product-hunt"></i>
-                    <span>Productos</span>
+                    <span>Products</span>
                 </a>
             </li>
             <li>
                 <a href="">
                     <i class="fa fa-users"></i>
-                    <span>Clientes</span>
+                    <span>Customers</span>
                 </a>
             </li>
             <li class="treeview">
                 <a href="">
                     <i class="fa fa-list-ul"></i>
-                    <span>Ventas</span>
+                    <span>Sales</span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>
@@ -43,19 +43,19 @@
                     <li>
                         <a href="">
                             <i class="fa fa-circle-o"></i>
-                            <span>Administrar Ventas</span>
+                            <span>Manage Sales</span>
                         </a>
                     </li>
                     <li>
                         <a href="">
                             <i class="fa fa-circle-o"></i>
-                            <span>Crear Venta</span>
+                            <span>Create Sale</span>
                         </a>
                     </li>
                     <li>
                         <a href="">
                             <i class="fa fa-circle-o"></i>
-                            <span>Reporte de Ventas</span>
+                            <span>Sales Report</span>
                         </a>
                     </li>
                 </ul>
