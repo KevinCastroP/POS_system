@@ -49,15 +49,31 @@
   <!-- Site wrapper -->
   <div class="wrapper">
     <?php
-      /*cabezote*/
-      include "modulos/cabezote.php";
-      /*menu*/
-      include "modulos/menu.php";
-      /*contenido*/
-      include "modulos/contenido.php";
-      /*footer*/
-      include "modulos/footer.php";
-      
+    /*cabezote*/
+    include "modulos/cabezote.php";
+    /*menu*/
+    include "modulos/menu.php";
+
+    if (isset($_GET["route"])) {
+      if (
+        $_GET["route"] == "home" ||
+        $_GET["route"] == "users" ||
+        $_GET["route"] == "categories" ||
+        $_GET["route"] == "products" ||
+        $_GET["route"] == "customers" ||
+        $_GET["route"] == "sales" ||
+        $_GET["route"] == "create-sale" ||
+        $_GET["route"] == "reports"
+      ) {
+
+        include "modulos/" . $_GET["route"] . ".php";
+      }
+    }
+
+
+    /*footer*/
+    include "modulos/footer.php";
+
 
     ?>
 
